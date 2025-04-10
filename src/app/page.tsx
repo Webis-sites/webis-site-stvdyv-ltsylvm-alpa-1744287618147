@@ -15,10 +15,13 @@ import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 import Button from '@/components/Button';
 import SectionHeader from '@/components/SectionHeader';
+import ImageCard from '@/components/ImageCard';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <ImageCard />
+      
       <SectionHeader />
       
       <Button />
