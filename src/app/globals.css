@@ -37,6 +37,9 @@
 
   --primary: #96CEB4;
   --secondary: #D4A5A5;
+
+  --primary-dark: #7EBAA0;
+  --secondary-dark: #C08E8E;
 }
 
     html {
