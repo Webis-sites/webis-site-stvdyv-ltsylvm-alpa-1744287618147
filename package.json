@@ -17,7 +17,8 @@
     "postcss": "^8.4.24",
     "framer-motion": "^10.16.4",
     "react-icons": "^4.11.0",
-    "@headlessui/react": "^1.7.15"
+    "@headlessui/react": "^1.7.15",
+    "lucide-react": "^0.292.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
