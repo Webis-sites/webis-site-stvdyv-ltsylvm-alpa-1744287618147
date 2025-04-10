@@ -11,10 +11,13 @@ import AboutSection from '@/components/AboutSection';
 import ProcessSection from '@/components/ProcessSection';
 import FAQAccordion from '@/components/FAQAccordion';
 import ContactForm from '@/components/ContactForm';
+import CTASection from '@/components/CTASection';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <CTASection />
+      
       <ContactForm />
       
       <FAQAccordion />
