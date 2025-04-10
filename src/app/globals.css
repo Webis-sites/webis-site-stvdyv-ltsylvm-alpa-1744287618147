@@ -12,6 +12,14 @@
     
   --font-heebo: var(--font-heebo);
   --font-rubik: var(--font-rubik);
+
+  --color-primary: #96CEB4;
+  --color-primary-light: #A8DACC;
+  --color-secondary: #D4A5A5;
+  --color-secondary-light: #E6C2C2;
+  --shadow-neumorphic: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.8);
+  --shadow-neumorphic-hover: 7px 7px 15px rgba(0, 0, 0, 0.1), -7px -7px 15px rgba(255, 255, 255, 0.8);
+  --shadow-neumorphic-pressed: inset 3px 3px 7px rgba(0, 0, 0, 0.1), inset -3px -3px 7px rgba(255, 255, 255, 0.8);
 }
 
     html {
