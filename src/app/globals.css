@@ -25,6 +25,11 @@
   --text-color: #ffffff;
   --shadow-light: rgba(255, 255, 255, 0.1);
   --shadow-dark: rgba(0, 0, 0, 0.2);
+
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --neumorphic-light: rgba(255, 255, 255, 0.5);
+  --neumorphic-shadow: rgba(163, 177, 198, 0.6);
 }
 
     html {
