@@ -7,10 +7,13 @@ import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
 import PortfolioGallery from '@/components/PortfolioGallery';
 import TestimonialsCarousel from '@/components/TestimonialsCarousel';
+import AboutSection from '@/components/AboutSection';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <AboutSection />
+      
       <TestimonialsCarousel />
       
       <PortfolioGallery />
