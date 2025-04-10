@@ -10,10 +10,13 @@ import TestimonialsCarousel from '@/components/TestimonialsCarousel';
 import AboutSection from '@/components/AboutSection';
 import ProcessSection from '@/components/ProcessSection';
 import FAQAccordion from '@/components/FAQAccordion';
+import ContactForm from '@/components/ContactForm';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <ContactForm />
+      
       <FAQAccordion />
       
       <ProcessSection />
