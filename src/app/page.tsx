@@ -14,10 +14,13 @@ import ContactForm from '@/components/ContactForm';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 import Button from '@/components/Button';
+import SectionHeader from '@/components/SectionHeader';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <SectionHeader />
+      
       <Button />
       
       <Footer />
