@@ -18,7 +18,8 @@
     "framer-motion": "^10.16.4",
     "react-icons": "^4.11.0",
     "@headlessui/react": "^1.7.15",
-    "lucide-react": "^0.292.0"
+    "lucide-react": "^0.292.0",
+    "class-variance-authority": "^0.7.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
