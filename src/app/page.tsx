@@ -6,10 +6,13 @@ import NavigationHeader from '@/components/NavigationHeader';
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
 import PortfolioGallery from '@/components/PortfolioGallery';
+import TestimonialsCarousel from '@/components/TestimonialsCarousel';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <TestimonialsCarousel />
+      
       <PortfolioGallery />
       
       <ServicesSection />
