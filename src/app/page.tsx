@@ -13,10 +13,13 @@ import FAQAccordion from '@/components/FAQAccordion';
 import ContactForm from '@/components/ContactForm';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
+import Button from '@/components/Button';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <Button />
+      
       <Footer />
       
       <CTASection />
