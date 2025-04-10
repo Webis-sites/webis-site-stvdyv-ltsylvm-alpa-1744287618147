@@ -2,10 +2,13 @@
 
 import React from 'react';
 import Layout from '@/components/Layout';
+import NavigationHeader from '@/components/NavigationHeader';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <NavigationHeader />
+      
       <Layout />
       
       <main className="flex-1 container mx-auto px-4 py-8">
