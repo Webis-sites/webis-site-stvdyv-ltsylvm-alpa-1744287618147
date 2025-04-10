@@ -8,10 +8,13 @@ import ServicesSection from '@/components/ServicesSection';
 import PortfolioGallery from '@/components/PortfolioGallery';
 import TestimonialsCarousel from '@/components/TestimonialsCarousel';
 import AboutSection from '@/components/AboutSection';
+import ProcessSection from '@/components/ProcessSection';
 
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <ProcessSection />
+      
       <AboutSection />
       
       <TestimonialsCarousel />
